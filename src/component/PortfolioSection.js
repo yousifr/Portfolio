@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectsIMG from "../Assets/projects.jpg";
 import NewYear from "../Assets/newyeareve.png";
+import weatherIMg from "../Assets/Weather.png";
 
 function PortfolioSection() {
   return (
@@ -24,26 +25,35 @@ function PortfolioSection() {
                 Demo
               </a>
 
-              {/* <a href="/#" className="m-3">
+              {/* <a href="/#" assName="m-3">
                 source code
               </a> */}
             </div>
           </div>
         </div>
         <div className="bg-gray-200 shadow-md rounded-lg  pb-6 flex flex-wrap items-center justify-center overflow-hidden transform transition duration-150 hover:scale-95 cursor-pointer ">
-          <img src={ProjectsIMG} alt="" />
+          <img src={weatherIMg} alt="" />
           <div className="text-center">
-            <h5 className="m-3 text-2xl font-bold">Project 2</h5>
-            <p className="m-3">In Progress</p>
+            <h5 className="m-3 text-2xl font-bold">Weather App</h5>
+            <p className="m-3">
+              retrieving weather data from an API by entering city name
+            </p>
             <div className="">
               <a
-                href="/#"
+                href="https://weather-73aab.web.app/"
                 className=" text-white bg-MediumPurple px-4 py-1 rounded-full hover:bg-MaximumBluePurple"
+                target="_blank"
+                rel="noreferrer"
               >
                 Demo
               </a>
 
-              <a href="/#" className="m-3">
+              <a
+                href="https://github.com/yousifr/weather"
+                target="_blank"
+                rel="noreferrer"
+                className="m-3"
+              >
                 source code
               </a>
             </div>
