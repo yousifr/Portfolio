@@ -1,7 +1,7 @@
 import React from "react";
 import chair from "../Assets/chair.png";
 import hero from "../Assets/background.jpg";
-import myPDF from "../Assets/Yousif Ismail (3).pdf";
+import myPDF from "../Assets/Yousif Ismail (2).pdf";
 import Typewriter from "typewriter-effect";
 
 function HeroSection() {
